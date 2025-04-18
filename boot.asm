@@ -80,4 +80,4 @@ disk_msg db "Disk read error!", 0
 nl       db 0x0D, 0x0A, 0
 
 times 510-($-$$) db 0
-dw 0xAA55  ; Signed with intense hatred, Boot Sector.
+dw 0xAA55  ; Signed with intense hatred
