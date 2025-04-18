@@ -1,6 +1,6 @@
 [BITS 32]
 [ORG 0x10000]
-
+; Lots of room for expansion here, probably. Dude I don't even know anymore. Im not gonna be the one expanding it either ive seen way too many triple errors.
 start:
     mov ax, 0x10
     mov ds, ax
