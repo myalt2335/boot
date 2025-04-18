@@ -14,3 +14,5 @@ then I just ran it with QEMU
 qemu-system-x86_64 -drive format=raw,file=raw.img -no-reboot -no-shutdown -d int,cpu_reset
 
 That's all.
+
+As you can tell I don't even care enough about this to write a nice README. Have fun with this, god knows I didn't.
